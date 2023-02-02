@@ -1,6 +1,6 @@
 import './Banner.css'
 
-function Banner(){
+const Banner = () => {
   // JSX
   return(
     <header className="banner">
@@ -8,7 +8,5 @@ function Banner(){
     </header>
   )
 }
-
-document.createElement('img')
 
 export default Banner
